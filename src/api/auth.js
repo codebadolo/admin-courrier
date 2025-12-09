@@ -75,6 +75,7 @@ export const getUserById = async (id) => {
   return res.data;
 };
 
+
 export const createUser = async (data) => {
   const res = await api.post("/users/users/", data);
   return res.data;
